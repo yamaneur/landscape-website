@@ -53,9 +53,6 @@ const Contact = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-5">
             يسعدنا تواصلك 🤝
           </h2>
-          <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            أخبرنا عن فكرتك أو مشروعك وسنتواصل معك لنبدأ رحلة الابتكار
-          </p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
