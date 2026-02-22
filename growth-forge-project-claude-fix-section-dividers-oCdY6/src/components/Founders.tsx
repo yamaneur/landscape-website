@@ -110,7 +110,7 @@ const Founders = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-5">
-            <span className="text-gradient">قصص نجاح</span> صنعناها معهم
+            عمل فريقنا مع
           </h2>
           <p className="text-muted-foreground text-base md:text-lg">+45 عام من الخبرات المتراكمة في بناء الشركات الناشئة والابتكار</p>
         </motion.div>
