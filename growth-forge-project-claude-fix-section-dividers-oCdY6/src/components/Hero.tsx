@@ -113,10 +113,10 @@ const Hero = () => (
           اكتشف خدماتنا
         </a>
         <a
-          href="#about"
+          href="#contact"
           className="glass text-foreground px-8 py-3.5 rounded-2xl font-medium text-base hover:bg-muted/60 hover:-translate-y-0.5 transition-all duration-300"
         >
-          تعرف علينا
+          تواصل معنا
         </a>
       </motion.div>
 
