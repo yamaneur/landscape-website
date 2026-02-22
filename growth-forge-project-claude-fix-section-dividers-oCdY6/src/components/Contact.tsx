@@ -51,7 +51,7 @@ const Contact = () => {
           className="text-center mb-14"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-5">
-            🤝 ابدأ رحلتك <span className="text-gradient">معنا</span>
+            يسعدنا تواصلك 🤝
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
             أخبرنا عن فكرتك أو مشروعك وسنتواصل معك لنبدأ رحلة الابتكار
