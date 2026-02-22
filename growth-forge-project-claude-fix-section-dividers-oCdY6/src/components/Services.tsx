@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Package, Building2, Wrench, ArrowLeft } from "lucide-react";
+import { Package, Building2, ArrowLeft } from "lucide-react";
 
 const services = [
   {
@@ -14,12 +14,6 @@ const services = [
     title: "بناء شركات ناشئة للشركات",
     desc: "رحلة ريادية متكاملة من الفكرة إلى الإطلاق والتشغيل، مصممة خصيصًا للشركات الطموحة.",
     features: ["الإطلاق والاختبار", "التشغيل والتطوير", "بناء الفريق"],
-  },
-  {
-    icon: Wrench,
-    title: "خدمات الشركات الناشئة",
-    desc: "خدمات إطلاق وتشغيل الشركات الناشئة مع دعم شامل في جميع المراحل.",
-    features: ["الدراسة المالية", "خطة الإطلاق", "استراتيجية النمو"],
   },
 ];
 
@@ -44,7 +38,7 @@ const Services = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
           {services.map((s, i) => (
             <motion.div
               key={i}
