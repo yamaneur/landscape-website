@@ -4,10 +4,10 @@ import { Menu, X } from "lucide-react";
 import logoHeader from "@/assets/logo-header.png";
 
 const navLinks = [
-  { href: "#services", label: "خدماتنا" },
-  { href: "#founders", label: "المؤسسون" },
-  { href: "#partners", label: "شركاؤنا" },
-  { href: "#bot-framework", label: "الاستديو" },
+  { href: "#services", label: "نبذة عنا" },
+  { href: "#founders", label: "فريقنا" },
+  { href: "#partners", label: "قصصنا" },
+  { href: "#bot-framework", label: "منهجيتنا" },
   { href: "#contact", label: "تواصل معنا" },
 ];
 
