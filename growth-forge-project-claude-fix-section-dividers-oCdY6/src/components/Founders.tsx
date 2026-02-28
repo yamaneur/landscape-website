@@ -86,7 +86,7 @@ const Founders = () => {
                   onClick={() => setActive(i)}
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  className="relative flex-1 max-w-[200px] rounded-2xl overflow-hidden focus:outline-none"
+                  className="relative flex-1 max-w-[250px] rounded-2xl overflow-hidden focus:outline-none"
                   style={{ aspectRatio: "3/4" }}
                 >
                   <img
@@ -110,7 +110,7 @@ const Founders = () => {
                   {isActive && (
                     <motion.div
                       layoutId="active-ring"
-                      className="absolute inset-0 rounded-2xl border-2 border-primary pointer-events-none"
+                      className="absolute inset-0 rounded-2xl border-[6px] border-primary pointer-events-none"
                       transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                     />
                   )}
