@@ -83,10 +83,10 @@ const BotFramework = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-black mb-5">
-            منهجيتنا في بناء الشركات
+            نبني، نشغّل، وننقل:
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            نبني، نشغّل، وننقل — إطار عمل متكامل لتحويل الأفكار إلى شركات ناجحة ومستدامة
+            إطار عمل متكامل لتحويل الأفكار إلى شركات مستدامة
           </p>
         </motion.div>
 
