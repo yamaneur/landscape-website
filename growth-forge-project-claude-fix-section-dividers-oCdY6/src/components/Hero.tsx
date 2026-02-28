@@ -31,43 +31,16 @@ const Hero = () => (
         className="max-w-2xl mx-auto"
       >
         <p className="text-4xl md:text-6xl font-extrabold text-foreground leading-relaxed mb-4">
-          استديو شركات ناشئة{" "}
           <motion.span
             animate={{ textShadow: ["0 0 0px hsl(250 80% 60%)", "0 0 20px hsl(250 80% 60%)", "0 0 0px hsl(250 80% 60%)"] }}
             transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
             className="text-gradient font-black"
           >
-            وطني ابتكاري
+            استديو ابتكاري وطني
           </motion.span>
         </p>
         <p className="text-base md:text-lg font-bold text-muted-foreground leading-loose max-w-xl mx-auto">
-          يبني شركات ريادية عبر خبرات متراكمة مربحة في{" "}
-          <motion.span
-            animate={{ opacity: [0.7, 1, 0.7] }}
-            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="text-foreground font-extrabold"
-          >
-            قطاعات غير مُستغلة
-          </motion.span>
-          ، تتجاوز{" "}
-          <motion.span
-            animate={{ 
-              textShadow: ["0 0 0px hsl(275 65% 55%)", "0 0 16px hsl(275 65% 55%)", "0 0 0px hsl(275 65% 55%)"],
-              opacity: [0.8, 1, 0.8]
-            }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-            className="text-foreground font-black"
-          >
-            45 عامًا
-          </motion.span>
-          {" "}في{" "}
-          <motion.span
-            animate={{ opacity: [0.7, 1, 0.7] }}
-            transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-            className="text-foreground font-extrabold"
-          >
-            الابتكار وبناء المنتجات والاستثمار
-          </motion.span>
+          لاندسكيب استديو شركات ناشئة سعودي يؤسس شركات ريادية داخلية في قطاعات التقنية المالية، إضافة إلى تأسيس وتشغيل الاستديوهات مع الشركات والمكاتب العائلية.
         </p>
       </motion.div>
 
