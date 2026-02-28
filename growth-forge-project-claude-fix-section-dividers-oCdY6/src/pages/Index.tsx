@@ -28,8 +28,8 @@ const Index = () => (
     <Partners />
     <SectionDivider />
     <BotFramework />
-    <SectionDivider />
-    <Methodology />
+    {/* <SectionDivider />
+    <Methodology /> */}
     {/* <Timeline /> */}
     <SectionDivider />
     <Contact />
