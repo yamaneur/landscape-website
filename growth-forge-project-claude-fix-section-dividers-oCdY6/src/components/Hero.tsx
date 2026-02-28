@@ -40,7 +40,7 @@ const Hero = () => (
             وطني
           </motion.span>
         </p>
-        <p className="text-base md:text-lg font-bold text-foreground leading-loose max-w-xl mx-auto">
+        <p className="text-base md:text-lg font-normal text-foreground leading-loose max-w-xl mx-auto">
           لاندسكيب استديو شركات ناشئة سعودي يؤسس شركات ريادية داخلية في قطاعات التقنية المالية، إضافة إلى تأسيس وتشغيل الاستديوهات للشركات العائلية.
         </p>
       </motion.div>
