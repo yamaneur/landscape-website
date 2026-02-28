@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import logoHeader from "@/assets/logo-header.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => (
@@ -25,40 +24,13 @@ const Hero = () => (
     />
 
     <div className="container relative z-10 text-center pt-20">
-      <motion.div
-        initial={{ scale: 0.7, opacity: 0, y: 30 }}
-        animate={{ scale: 1, opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-        className="relative inline-block"
-      >
-        <img
-          src={logoHeader}
-          alt="Landscape X - لاندسكيب إكس"
-          className="mx-auto max-w-[320px] md:max-w-md w-full mb-6 drop-shadow-2xl"
-        />
-        {/* Subtle shimmer sweep across logo on load */}
-        <motion.div
-          className="absolute inset-0 mb-6 pointer-events-none"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 1, 0] }}
-          transition={{ delay: 0.8, duration: 1.6, ease: "easeInOut" }}
-        >
-          <motion.div
-            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-            initial={{ x: "-100%" }}
-            animate={{ x: "200%" }}
-            transition={{ delay: 0.8, duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-          />
-        </motion.div>
-      </motion.div>
-
-      <motion.div
+<motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
         className="max-w-2xl mx-auto"
       >
-        <p className="text-xl md:text-3xl font-extrabold text-foreground leading-relaxed mb-4">
+        <p className="text-4xl md:text-6xl font-extrabold text-foreground leading-relaxed mb-4">
           استديو شركات ناشئة{" "}
           <motion.span
             animate={{ textShadow: ["0 0 0px hsl(250 80% 60%)", "0 0 20px hsl(250 80% 60%)", "0 0 0px hsl(250 80% 60%)"] }}
