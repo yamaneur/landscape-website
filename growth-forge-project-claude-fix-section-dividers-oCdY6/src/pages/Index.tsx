@@ -20,9 +20,9 @@ const Index = () => (
     <Hero />
     <SectionDivider />
     <Services />
-    <SectionDivider />
+    {/* <SectionDivider />
     <About />
-    <SectionDivider />
+    <SectionDivider /> */}
     <Founders />
     <SectionDivider />
     <Partners />
